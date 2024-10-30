@@ -1,0 +1,156 @@
+.latmmo-amazon-product {
+    display: block;
+    width: 100%;
+    position: relative;
+
+    .item-top {
+        background: #505FA1;
+        color: #9da7d4;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .entry-title {
+        max-width: 800px;
+        padding: 0 20px;
+        margin: 0 auto;
+        display: block;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    .item-star {
+        margin-top: 10px;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 2px;
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+                    fill: #FF960C;
+                }
+            }
+        }
+    }
+
+    .item-slider {
+        margin: 40px auto;
+        max-width: 500px;
+
+        .item-gallery {
+            .gallery-item {
+                text-align: center;
+
+                img {
+                    max-width: 150px;
+                }
+            }
+        }
+    }
+
+    .item-content {
+        background: #f4f4f3;
+        border-top: 1px solid #EAEAEA;
+        padding: 30px 0 50px;
+
+        .item-content-inner {
+            display: flex;
+        }
+
+        .item-sidebar {
+            width: 25%;
+            margin-right: 20px;
+        }
+
+        .item-main-content {
+            width: 75%;
+            margin-left: 20px;
+        }
+    }
+
+    .latmmo-sub-title {
+        border-bottom: 1px solid #191b2b;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .item-info-list {
+        .item-info {
+            border-bottom: 1px solid #dbdbdb;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            font-size: 15px;
+
+            label {
+                color: #000;
+                font-weight: 600;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .item-price {
+        .last-update {
+            text-align: right;
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        table {
+            border: none;
+            margin-bottom: 0;
+
+            tr {
+                border: none;
+
+                th {
+                    color: #26293c;
+                    border: none;
+                    border-bottom: 1px solid #dbdbdb;
+                    font-size: 13px;
+                }
+
+                td {
+                    border: none;
+                    border-bottom: 1px solid #dbdbdb;
+                    padding: 15px 8px;
+
+                    &.td__logo {
+                        a {
+                            display: block;
+                            overflow: hidden;
+                            width: 81px;
+                            height: 29px;
+                        }
+                    }
+
+                    &.td__buy {
+                        a {
+                            background: #00653c;
+                            padding: 7px 12px;
+                            font-size: 14px;
+                            font-weight: bold;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .item-featured {
+
+    }
+}

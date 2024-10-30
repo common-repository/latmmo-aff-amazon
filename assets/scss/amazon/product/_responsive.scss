@@ -1,0 +1,31 @@
+@media (max-width: 480px) {
+    .latmmo-amazon-product {
+        .item-content {
+            .item-content-inner {
+                flex-wrap: wrap;
+            }
+
+            .item-sidebar {
+                width: 100%;
+                margin-right: 0;
+                order: 2;
+            }
+
+            .item-main-content {
+                width: 100%;
+                margin-left: 0;
+                order: 1;
+            }
+        }
+
+        .item-price {
+            .th__base {
+                display: none;
+            }
+
+            .td__base {
+                display: none;
+            }
+        }
+    }
+}

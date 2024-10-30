@@ -1,0 +1,16 @@
+.os-product-history {
+    .item-date {
+        margin: 20px 0;
+        display: flex;
+
+        input {
+            margin-left: 10px;
+            height: 35px;
+            background: #fff;
+
+            &.item-date-from {
+                margin-right: 20px;
+            }
+        }
+    }
+}

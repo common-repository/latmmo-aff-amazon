@@ -1,0 +1,41 @@
+.latmmo-has-bar {
+    display: flex;
+
+    .latmmo-sidebar {
+        padding: 20px;
+    }
+
+    &.latmmo-bar-right {
+        .latmmo-content {
+            order: 1;
+        }
+
+        .latmmo-sidebar {
+            order: 2;
+        }
+    }
+
+    &.latmmo-bar-left {
+        .latmmo-content {
+            order: 2;
+        }
+
+        .latmmo-sidebar {
+            order: 1;
+        }
+    }
+}
+
+.latmmo-amazon-post {
+    .container {
+        max-width: 1170px;
+    }
+
+    .post-meta {
+        display: flex;
+
+        > div {
+            margin-right: 10px;
+        }
+    }
+}
